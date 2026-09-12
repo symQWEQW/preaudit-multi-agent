@@ -27,7 +27,7 @@
 ## 目录结构
 
 ```
-jiangling-multi-agent/
+preaudit-multi-agent/
 ├── README.md
 ├── requirements.txt
 ├── multi_agent.py      # LangGraph 编排 + 三个 Agent（含无依赖回退模式）
@@ -49,8 +49,8 @@ python multi_agent.py
 
 | 仓库 | 角色 | 技术 |
 |---|---|---|
-| jiangling-ai-preaudit | RAG 核心 + 评估（AI 工程作品） | TF-IDF/Milvus + Ollama |
-| **jiangling-multi-agent** | 多 Agent 编排（命中楚天云 JD） | **LangGraph** |
+| preaudit-rag-engine | RAG 核心 + 评估（AI 工程作品） | TF-IDF/Milvus + Ollama |
+| **preaudit-multi-agent** | 多 Agent 编排（命中楚天云 JD） | **LangGraph** |
 | medical-lora-finetune | 原理级微调（差异化证据） | LoRA/PEFT |
 
 三者共同构成「AI 应用落地工程师」作品集：会做应用、会编排 Agent、也懂模型原理。
