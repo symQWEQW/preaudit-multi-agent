@@ -1,4 +1,4 @@
-"""江陵 AI 预审 · 多 Agent 协作（LangGraph 实现）。
+"""某地 AI 预审 · 多 Agent 协作（LangGraph 实现）。
 
 三个 Agent 协作完成慢特病预审：
   1) Planner（规划 Agent）：从患者问题中识别病种，拆解需要核对的材料清单

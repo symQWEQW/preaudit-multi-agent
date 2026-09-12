@@ -1,4 +1,4 @@
-# 🕸️ 江陵 AI 预审 · LangGraph 多智能体协作
+# 🕸️ 某地 AI 预审 · LangGraph 多智能体协作
 
 > 对齐楚天云 JD（LangChain / LangGraph / Spring AI，Dify 优先）——把单链 AI 预审拆为 Planner / Retriever / Auditor 三智能体协作，无依赖时自动回退顺序模式。
 
@@ -9,7 +9,7 @@
 ---
 
 > **对齐目标 JD**：楚天云「大模型算法研发工程师」明确要求 *LangChain/LangGraph/Spring AI，有 Dify 源码研究经验者优先*。
-> 本仓库把江陵「AI 预审」从 Dify 单工作流升级为 **LangGraph 多 Agent 协作**，直接命中该 JD。
+> 本仓库把某地「AI 预审」从 Dify 单工作流升级为 **LangGraph 多 Agent 协作**，直接命中该 JD。
 
 ## 三个 Agent 协作
 
@@ -45,7 +45,7 @@ python multi_agent.py
 > 未安装 `langgraph` 时会自动回退到顺序执行模式（多 Agent 协作逻辑完全一致），
 > 可直接 `python multi_agent.py` 看效果，无需任何外部依赖。
 
-## 与江陵主项目的关系
+## 与某地主项目的关系
 
 | 仓库 | 角色 | 技术 |
 |---|---|---|
