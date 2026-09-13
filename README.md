@@ -17,6 +17,11 @@
 2. **Retriever（检索 Agent）**：按病种检索对应政策标准
 3. **Auditor（审核 Agent）**：综合材料与政策，输出结构化预审结论
 
+
+## 流程图
+
+![LangGraph 多智能体流程](docs/images/agent-flow.png)
+
 ## 为什么是「多 Agent」而非「单链」
 
 - 职责解耦：病种识别 / 政策检索 / 合规审核独立优化、可替换
