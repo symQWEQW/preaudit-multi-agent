@@ -50,6 +50,12 @@ python multi_agent.py
 > 未安装 `langgraph` 时会自动回退到顺序执行模式（多 Agent 协作逻辑完全一致），
 > 可直接 `python multi_agent.py` 看效果，无需任何外部依赖。
 
+### 真实运行输出
+
+`python multi_agent.py` 实跑结果（Planner → Retriever → Auditor 三 Agent 依次输出）：
+
+![多 Agent 真实运行输出](docs/images/agent-run.png)
+
 ## 与某地主项目的关系
 
 | 仓库 | 角色 | 技术 |
